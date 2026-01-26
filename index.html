@@ -1,9 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Homepage</title>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+		/>
 		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 		<link rel="stylesheet" href="styles.css" />
 	</head>
@@ -11,28 +16,68 @@
 		<div>
 			<header>
 				<section>
-					<div class="header-layout">
-						<div class="header-background p-[0.5em] md:p-[1em] bg-bottom-left">
-							<div class="flex justify-center items-center">
-								<div class="developer-photo-one w-full max-w-[500px]">
-									<h1 class="absolute bottom-0 mb-1 ml-2 text-white text-xl">
+					<div>
+						<div class="header-background bg-bottom-left py-[2em] md:py-[4em]">
+							<div
+								class="flex flex-wrap border w-full justify-center items-center lg:px-[4em]"
+							>
+								<div class="developer-photo-one w-[calc(100%-4em)]">
+									<h1 class="absolute bottom-0 mb-1 ml-2 text-white text-5xl">
 										Robert Williams
 									</h1>
 								</div>
-								<div class="text-center hidden md:block">
-									<h2>About me</h2>
-									<p>
-										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-										Amet ut praesentium fugiat! Neque, amet. Alias recusandae
-										in, magni, reiciendis sapiente ut eligendi exercitationem
-										aperiam quidem perspiciatis consequatur laudantium. Dolorum,
-										at.
-									</p>
+								<div
+									class="bg-white shadow-md w-full min-w-[300px] max-w-[500px] p-[1em] h-fit flex flex-col gap-[2em]"
+								>
+									<div class="text-center">
+										<h2 class="text-3xl">About me</h2>
+										<p class="text-xl">
+											Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+											Amet ut praesentium fugiat! Neque, amet. Alias recusandae
+											in, magni, reiciendis sapiente ut eligendi exercitationem
+											aperiam quidem perspiciatis consequatur laudantium.
+											Dolorum, at.
+										</p>
+									</div>
+									<nav>
+										<ul class="flex justify-center gap-[1em] items-center">
+											<li>
+												<a href="https://github.com">
+													<img
+														src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+														alt=""
+														width="30"
+														height="auto"
+													/>
+												</a>
+											</li>
+											<li>
+												<a href="https://www.linkedin.com">
+													<img
+														src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg"
+														alt=""
+														width="30"
+														height="auto"
+													/>
+												</a>
+											</li>
+											<li>
+												<a href="https://x.com">
+													<img
+														src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg"
+														alt=""
+														width="26"
+														height="auto"
+													/>
+												</a>
+											</li>
+										</ul>
+									</nav>
 								</div>
 							</div>
 						</div>
 
-						<div class="text-center md:hidden">
+						<!-- <div class="text-center md:hidden mt-[1em]">
 							<h2>About me</h2>
 							<p>
 								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
@@ -40,24 +85,11 @@
 								reiciendis sapiente ut eligendi exercitationem aperiam quidem
 								perspiciatis consequatur laudantium. Dolorum, at.
 							</p>
-						</div>
+						</div> -->
 					</div>
-					<nav>
-						<ul>
-							<li>
-								<a href=""><img src="" alt="github-logo" /></a>
-							</li>
-							<li>
-								<a href=""><img src="" alt="linkedin-logo" /></a>
-							</li>
-							<li>
-								<a href=""><img src="" alt="twitter-logo" /></a>
-							</li>
-						</ul>
-					</nav>
 				</section>
 			</header>
-			<main><h1 class="text-3xl font-bold underline">(MAIN CONTENT)</h1></main>
+			<!-- <main><h1 class="text-3xl font-bold underline">(MAIN CONTENT)</h1></main>
 			<footer>
 				<div>
 					<section>
@@ -74,7 +106,7 @@
 								</div>
 								<div>
 									<p>555-555-5555</p>
-									<!-- <p>ashleywilliams.is.not.real@gamil.com</p> -->
+									<p>robertwilliams.is.not.real@gamil.com</p>
 								</div>
 							</div>
 							<nav>
@@ -94,7 +126,7 @@
 						<img src="" alt="Another Beautiful photo" />
 					</section>
 				</div>
-			</footer>
+			</footer> -->
 		</div>
 	</body>
 </html>
