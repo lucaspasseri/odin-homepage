@@ -1,3 +1,13 @@
+@layer utilities {
+	.shape-square {
+		float: left;
+		width: calc(400px - 3em);
+		height: calc(400px - 7em);
+		shape-outside: inset(0);
+		background: transparent;
+	}
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -17,7 +27,6 @@
 .header-background {
 	background-image: url("./headerBackground.svg");
 	background-size: cover;
-	border: 2px solid red;
 }
 
 .developer-photo-one {
@@ -25,6 +34,4 @@
 	background-size: cover;
 	background-position: left top;
 	background-repeat: no-repeat;
-	position: relative;
-	border: 2px solid black;
 }

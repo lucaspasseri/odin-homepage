@@ -19,21 +19,26 @@
 					<div>
 						<div class="header-background bg-bottom-left py-[2em] md:py-[4em]">
 							<div
-								class="flex flex-wrap border w-full justify-center items-center md:px-[4em]"
+								class="flex flex-wrap w-full justify-center items-center md:px-[4em] relative"
 							>
 								<div
-									class="developer-photo-one max-w-[calc(100%-4em)] md:max-w-full w-full lg:max-w-[440px] lg:min-h-[600px] min-h-[400px]"
+									class="developer-photo-one w-[calc(100%-4em)] md:w-[400px] lg:w-[400px] xl:w-[500px] lg:min-h-[600px] min-h-[400px] relative md:absolute lg:relative md:top-0 md:left-[2em] lg:left-0 shadow-lg"
 								>
-									<h1 class="absolute bottom-0 mb-1 ml-2 text-white text-5xl">
+									<h1
+										class="absolute left-0 bottom-0 mb-1 ml-2 text-white text-6xl md:w-[400px] lg:w-full md:top-0 lg:top-auto md:left-[70%] lg:left-auto"
+									>
 										Robert Williams
 									</h1>
 								</div>
 								<div
-									class="bg-white shadow-md w-full min-w-[300px] lg:max-w-[440px] p-[1em] h-fit flex flex-col gap-[2em]"
+									class="bg-white shadow-md w-full min-w-[300px] lg:max-w-[480px] xl:max-w-[600px] p-[2em] h-fit flex flex-col gap-[2em] md:mt-[6em] lg:mt-0"
 								>
 									<div class="text-center">
-										<h2 class="text-3xl">About me</h2>
-										<p class="text-xl">
+										<span
+											class="shape-square hidden md:inline-block lg:hidden md:mr-[1em]"
+										></span>
+										<h2 class="text-3xl mb-[0.3em] sm:mb-[0.6em]">About me</h2>
+										<p class="text-2xl">
 											Lorem ipsum dolor, sit amet consectetur adipisicing elit.
 											Amet ut praesentium fugiat! Neque, amet. Alias recusandae
 											in, magni, reiciendis sapiente ut eligendi exercitationem
@@ -43,8 +48,10 @@
 											quos repellat?
 										</p>
 									</div>
-									<nav>
-										<ul class="flex justify-center gap-[1em] items-center">
+									<nav class="md:hidden lg:block">
+										<ul
+											class="flex justify-center gap-[1em] items-center lg:justify-end"
+										>
 											<li>
 												<a href="https://github.com">
 													<img
@@ -80,20 +87,10 @@
 								</div>
 							</div>
 						</div>
-
-						<!-- <div class="text-center md:hidden mt-[1em]">
-							<h2>About me</h2>
-							<p>
-								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
-								ut praesentium fugiat! Neque, amet. Alias recusandae in, magni,
-								reiciendis sapiente ut eligendi exercitationem aperiam quidem
-								perspiciatis consequatur laudantium. Dolorum, at.
-							</p>
-						</div> -->
 					</div>
 				</section>
 			</header>
-			<!-- <main><h1 class="text-3xl font-bold underline">(MAIN CONTENT)</h1></main>
+			<main><h1 class="text-3xl font-bold underline">(MAIN CONTENT)</h1></main>
 			<footer>
 				<div>
 					<section>
@@ -130,7 +127,7 @@
 						<img src="" alt="Another Beautiful photo" />
 					</section>
 				</div>
-			</footer> -->
+			</footer>
 		</div>
 	</body>
 </html>
