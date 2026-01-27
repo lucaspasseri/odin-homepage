@@ -35,3 +35,19 @@
 	background-position: left top;
 	background-repeat: no-repeat;
 }
+
+.projects {
+	display: grid;
+
+	grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+	grid-auto-rows: 400px;
+}
+
+.project {
+	display: flex;
+	flex-direction: column;
+	> div {
+		border: 1px solid red;
+		flex: 1 1 0;
+	}
+}
