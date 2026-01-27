@@ -48,7 +48,7 @@
 	flex-direction: column;
 
 	> div:first-child {
-		flex: 3;
+		flex: 5;
 		color: white;
 		font-size: 2.6em;
 		display: flex;
@@ -59,28 +59,35 @@
 	}
 
 	> div:nth-child(2) {
-		flex: 2;
+		flex: 4;
 		background-color: white;
 	}
 
 	&:first-of-type {
-		background-color: #7c75ca;
+		background-color: #9e1c1c;
 	}
 
 	&:nth-of-type(2) {
-		background-color: #d88f39;
+		background-color: #7c75ca;
 	}
 
 	&:nth-of-type(3) {
 		background-color: #5e8f4d;
 	}
 	&:nth-of-type(4) {
-		background-color: #ca7599;
+		background-color: #c363b4;
 	}
 	&:nth-of-type(5) {
-		background-color: #4692d9;
+		background-color: #d88f39;
 	}
 	&:nth-of-type(6) {
-		background-color: #c7ca1e;
+		background-color: #4692d9;
 	}
+}
+
+.developer-photo-two {
+	background-image: url("./developerPhotoTwo.png");
+	background-size: cover;
+	background-position: left top;
+	background-repeat: no-repeat;
 }
