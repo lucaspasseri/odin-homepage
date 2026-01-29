@@ -4,6 +4,18 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Homepage</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
 		<link
 			rel="stylesheet"
 			type="text/css"
@@ -25,7 +37,7 @@
 									class="developer-photo-one w-[calc(100%-4em)] md:w-[400px] lg:w-[400px] xl:w-[500px] lg:min-h-[600px] min-h-[400px] relative md:absolute lg:relative md:top-0 md:left-[2em] lg:left-0 shadow-lg"
 								>
 									<h1
-										class="absolute left-0 bottom-0 mb-1 ml-2 text-white text-6xl md:w-[400px] lg:w-full md:top-0 lg:top-auto md:left-[70%] lg:left-auto"
+										class="playfair-display-regular absolute left-0 bottom-0 mb-1 ml-2 text-white text-6xl md:w-[400px] lg:w-full md:top-0 lg:top-auto md:left-[70%] lg:left-auto"
 									>
 										Robert Williams
 									</h1>
@@ -37,7 +49,11 @@
 										<span
 											class="shape-square hidden md:inline-block lg:hidden md:mr-[1em]"
 										></span>
-										<h2 class="text-3xl mb-[0.3em] sm:mb-[0.6em]">About me</h2>
+										<h2
+											class="text-3xl mb-[0.3em] sm:mb-[0.6em] playfair-display-regular"
+										>
+											About me
+										</h2>
 										<p class="text-2xl">
 											Lorem ipsum dolor, sit amet consectetur adipisicing elit.
 											Amet ut praesentium fugiat! Neque, amet. Alias recusandae
@@ -92,7 +108,7 @@
 			</header>
 			<main class="mx-[1em] sm:mx-[4em] mb-[5em]">
 				<h1
-					class="text-3xl font-bold m-auto max-w-[calc(4*275px)] mb-[1em] mt-[3em] text-center sm:text-left"
+					class="playfair-display-regular text-3xl font-bold m-auto max-w-[calc(4*275px)] mb-[1em] mt-[3em] text-center sm:text-left"
 				>
 					My work
 				</h1>
@@ -290,31 +306,33 @@
 					</ul>
 				</section>
 			</main>
-			<footer class="bg-[#0785A3] text-white flex justify-center sm:p-[4em]">
+			<footer class="bg-[#0785A3] text-white flex justify-center md:p-[4em]">
 				<section
-					class="w-full h-fit max-w-[calc(4*275px)] flex flex-wrap sm:gap-[3em] border"
+					class="w-full h-fit max-w-[calc(4*275px)] flex flex-wrap gap-[3em]"
 				>
 					<div
-						class="flex-2 px-[1em] pt-[2em] pb-[4em] sm:px-0 sm:pt-0 sm:pb-0 flex flex-col justify-center"
+						class="flex-2 px-[1em] pt-[2em] pb-[0em] sm:px-[4em] md:px-0 md:pt-0 md:pb-0 flex flex-col justify-center lg:justify-start"
 					>
-						<div class="border-2 border-red-600 mb-[1.2em]">
-							<h1 class="text-center sm:text-left text-4xl mb-[0.3em]">
+						<div class="mb-[1.2em]">
+							<h1
+								class="playfair-display-regular text-center sm:text-left text-4xl mb-[0.3em]"
+							>
 								Contact me
 							</h1>
-							<p class="text-xl mb-[1em]">
+							<p class="text-2xl mb-[1em]">
 								Please get in touch if you think our work could be mutually
 								beneficial!
 							</p>
 							<div class="mb-[1.5em]">
-								<p class="text-md">1234 Random Road</p>
-								<p class="text-md">Random Town, California 12345</p>
+								<p class="text-xl">1234 Random Road</p>
+								<p class="text-xl">Random Town, California 12345</p>
 							</div>
 							<div>
-								<p class="text-md">555-555-5555</p>
-								<p class="text-md">robertwilliams.is.not.real@gamil.com</p>
+								<p class="text-xl">555-555-5555</p>
+								<p class="text-xl">robertwilliams.is.not.real@gamil.com</p>
 							</div>
 						</div>
-						<nav class="border-2 border-green-400">
+						<nav>
 							<ul class="flex justify-center sm:justify-start gap-[1.4em]">
 								<li>
 									<a href="https://github.com">
@@ -350,7 +368,7 @@
 						</nav>
 					</div>
 					<div
-						class="developer-photo-two h-full min-h-[400px] max-h-[500px] flex-[2.5] w-full min-w-[323px]"
+						class="developer-photo-two h-full min-h-[400px] max-h-[500px] flex-[2.5] w-full min-w-[320px] sm:min-w-[365px]"
 					></div>
 				</section>
 			</footer>
